@@ -1,6 +1,28 @@
 button{ 
- background-color: rgb(200, 0, 0);color: white;
-width: 100px;height: 50px; ; border: none;
-text-transform: uppercase;
-border: radius 10px;
-cursor: pointer;}
+    background-color: rgb(200, 0, 0);color: white;
+    width: 100px;height: 50px; ; border: none;
+    text-transform: uppercase;
+    border: 1px;
+    cursor: pointer;
+}
+
+
+
+
+.youtube:hover{
+    opacity: 80%;
+}
+
+.join{
+    background-color: rgb(255, 255, 255); color: blue;
+    width: 70px;height: 36px;border: 2px solid rgb(6, 95, 212); 
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+.join:hover{
+    background-color: aqua;
+    transition:2;
+}
